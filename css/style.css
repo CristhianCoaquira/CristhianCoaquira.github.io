@@ -1,7 +1,7 @@
 /* Imports fonts from fonts.css file */
 @import url(./fonts.css);
 /* Css variables */
-@import url(./partials/_variables.css);
+@import url(./partials/variables.css);
 /* Start navigation */
 .header .main-menu .navbar .navbar-brand {
   padding: 0 2rem 0 5rem;
