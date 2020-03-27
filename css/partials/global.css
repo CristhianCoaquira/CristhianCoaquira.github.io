@@ -4,6 +4,8 @@
   font: normal bold 50px/72px var(--roboto);
 }
 
+
+
 /* Buttons */
 .button {
   padding: .8rem 2.2rem;
@@ -50,4 +52,10 @@
   color: whitesmoke;
   box-shadow: var(--box-shadow);
   background-clip: padding-box;
+}
+
+/* Paragraph */
+.para {
+  color: var(--text-color);
+  font: normal 500 16px/25px var(--roboto);
 }
