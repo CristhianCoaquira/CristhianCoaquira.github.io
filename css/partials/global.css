@@ -56,6 +56,15 @@
   background-clip: padding-box;
 }
 
+button:focus,
+button:active,
+button:hover,
+.btn:active,
+.btn.active {
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
 /* Paragraphs */
 .para {
   color: var(--text-color);
