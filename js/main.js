@@ -12,4 +12,10 @@ $(document).ready(function () {
   })
 
   $('.project-area .button-group #btn-1').trigger('click')
+
+  // Magnific Popup
+  $('.project-area .grid .test-popup-link').magnificPopup({
+    type: 'image',
+    gallery: {enabled: true}
+  })
 })
